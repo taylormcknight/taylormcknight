@@ -1,7 +1,5 @@
 ### Hi there 👋
 
-- Our team of 18 designers is helping build a business media empire
-- 💻 I'm always looking for talented people to join us
-- 💬 Ask me about building a media company
+- Our <a href='https://industrydive.design/'>team of 18 designers</a> is helping Industry Dive build a business media empire. We're always looking for talented product designers, graphic designers, and illustrators to join us.
 - 🐦 How to reach me: <a href='https://twitter.com/rtaylormcknight'>@rtaylormcknight</a>
 - 🤿 Fun fact: I love to freedive
