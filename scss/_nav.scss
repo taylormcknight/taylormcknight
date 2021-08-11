@@ -1,0 +1,44 @@
+.top-nav-desktop {
+	padding: 1rem;
+}
+// logo
+.logo {
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 100;
+	border: none;
+	color: #000;
+	margin-top: .375rem;
+	text-transform: uppercase;
+	&:hover {
+		text-decoration: none;
+	}
+}
+@media (min-width: 600px ) {
+	.top-nav-desktop {
+		padding: 1rem 2rem;
+		margin: 0 auto 0rem auto;
+		max-width: 1200px;
+		ul {
+			display: flex;
+			margin-top: 0rem;
+			float: right;
+			li {
+				display: inline-block;
+				margin: 0 .875rem;
+				a {
+					font-weight: 600;
+					font-size: 1rem;
+					padding: 0;
+					border: none;
+					&.current {
+						color: #3300FF;
+					}
+				}
+			}
+		}
+	}
+	.header {
+		display: block;
+	}
+}

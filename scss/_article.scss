@@ -1,0 +1,33 @@
+.article {
+	padding: 1rem;
+	font-family: 'Merriweather', serif;
+	h1 {
+		font-weight: 100;
+	}
+	cite {
+		padding: 0 0 2rem 0;
+		border-bottom: solid 1px #efefef;
+		display: block;
+		margin-bottom: 3.5rem;
+		line-height: 1.5;
+		font-size: .875rem;
+	}
+	h2, h3, h4 {
+		font-weight: 100;
+	}
+	ol, ul, hr, h1, h2, h3, h4, h5, p, cite, span, blockquote, .footnotes, code {
+		max-width: 720px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	li {
+		margin-left: 1.5rem;
+	}
+}
+@media (min-width: 600px ) {
+	.article {
+		h1 {
+			font-size: 2rem;
+		}
+	}
+}
