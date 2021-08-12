@@ -78,13 +78,13 @@ main {
 		}
 	}
 }
-.page-header {
-	margin-top: 20vh !important;
-}
 
 
 // medium screen size up
 @media (min-width: 600px ) {
+	.page-header {
+		margin-top: 20vh !important;
+	}
 	.page-header {
 		li, p {
 			font-size: 1.5rem;
