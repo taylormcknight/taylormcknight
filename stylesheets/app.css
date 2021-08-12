@@ -808,7 +808,7 @@ main {
   margin: 0; }
 
 .page-header {
-  margin-top: 20vh; }
+  margin-top: 20vh !important; }
 
 @media (min-width: 600px) {
   .page-header li, .page-header p {
