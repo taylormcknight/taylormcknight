@@ -807,10 +807,10 @@ main {
 .grid-wrapper.feed figcaption {
   margin: 0; }
 
-@media (min-width: 600px) {
-  .page-header {
-    margin-top: 20vh !important; }
+.page-header {
+  margin-top: 20vh !important; }
 
+@media (min-width: 600px) {
   .page-header li, .page-header p {
     font-size: 1.5rem;
     line-height: 1.8; }
