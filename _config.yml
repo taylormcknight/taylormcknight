@@ -28,6 +28,9 @@ collections:
     projects:
       output: true
       permalink: /projects/:path/
+    essays:
+      output: true
+      permalink: /essays/:path/
     photography:
       output: true
       permalink: /photography/:path/
