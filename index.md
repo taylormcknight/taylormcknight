@@ -7,13 +7,13 @@ og_description: I founded and lead the design team at Industry Dive, a high-grow
 og_image: /media/img/about/mcknight_headshot.jpg
 og_type: website
 ---
-<section class="">
+<section class="" style="margin-top:20vh;">
 	<section class="grid page-header">
 		<div class="full-width">
 			<h1>{{ page.title }}
 			</h1>
-			<p>I am VP of Design at <a href="https://www.industrydive.com/">Industry Dive</a>. View my team's work at <a href="https://industrydive.design/">IndustryDive.design</a>.</p>
-			<p>Get in touch <a href="https://twitter.com/rtaylormcknight">@rtaylormcknight</a>.</p>
+			<p>VP of Design at <a href="https://www.industrydive.com/">Industry Dive</a>. View the design department's work at <a href="https://industrydive.design/">IndustryDive.design</a></p>
+			<p>Learn more <a href="{{ site.url }}/about">about McKnight</a>.</p>
 		</div>
 	</section>
 </section>
