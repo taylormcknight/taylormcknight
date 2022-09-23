@@ -14,7 +14,7 @@ og_type: website
 
 <img src="{{ site.url }}/media/img/about/headshot-2022.jpg" class="headshot">
 
-<p>Over the last 10 years, I've led design at Industry Dive, a bootstrapped business media company.<p> 
+<p>Over the last 10 years, I've led design at Industry Dive, a bootstrapped business media company in Washington, D.C.<p> 
 
 <p>I helped scale the company from year one through its $500M exit in Sept 2022.</p>
 
