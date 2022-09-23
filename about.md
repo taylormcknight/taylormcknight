@@ -42,7 +42,7 @@ og_type: website
 	<li>Design a healthy life</li>
 	<li>Design a financially secure life</li>
 	<li><a href="https://pbs.twimg.com/media/D0os5CVW0AABVFN.jpg:large">Design a life (physically) close to friends and family</a></li>
-	<li><a href="{{ site.url }}/experiences">Design a life filled with extraordinary experiences</a></li>
+	<li><a href="{{ site.url }}/goals">Design a filled with goals</a></li>
 	<!--<li>Design a life filled with extraordinary stories</li>-->
 	<li><a href="{{ site.baseurl }}{% link _posts/essays/2020-11-19-wellbeing.md %}">Design a meaningful approach to management</a></li>
 	<li><a href="{{ site.url }}/art">Design a life with art</a></li>
