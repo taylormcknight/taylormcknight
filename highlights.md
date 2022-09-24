@@ -10,7 +10,7 @@ og_type: website
 <section class="grid page-header">
 	<div class="full-width">
 		<h1>{{ page.title }}</h1>
-		<p>Accomplishments of teams I've created and led</p>
+		<p>10 years of product and design leadership</p>
 	</div>
 </section>
 <section class="stripe-section-2">
@@ -36,6 +36,9 @@ og_type: website
 				<a href="{{ highlights.url }}">
 				{% endif %}
 				Read more
+				{% if highlights.external_url %}
+				<img src="{{ site.url }}/media/img/external-link-icon.png" class="external-link-icon">
+				{% endif %}
 				</a>
 				</p>
 			</figcaption>

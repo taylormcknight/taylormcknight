@@ -5,8 +5,8 @@ main {
     margin: 0 auto;
 }
 .inner-section-wrapper {
-	max-width: 720px;
-	margin: 0 auto;
+	max-width: 1200px;
+	margin: 3rem auto;
 	padding: 1rem;
 }
 .grid {
@@ -24,7 +24,7 @@ main {
 		font-size: 1.5rem;
 		margin: 0;
 		display: inline;
-		color: #2c59b4;
+		color: #f5f7f8;
 		padding-top: 1rem;
 		border-top: solid 2px;
 	}
@@ -65,7 +65,8 @@ main {
 			grid-column-start: span 12;
 			transition: all .2s ease;
 			width: 100%;
-			border-bottom: solid 1px #c3cace;
+			border-bottom: solid 1px #e6ebee;
+			border-bottom-style: dotted;
 			&:last-of-type {
 				border: none;
 			}
@@ -80,6 +81,8 @@ main {
 }
 .page-header {
 	margin-top: 5vh !important;
+	border-bottom: solid 1px #e6ebee;
+	border-bottom-style: dotted;
 }
 
 
@@ -105,16 +108,15 @@ main {
 		&.feed, &.tiles {
 			article, .figure-wrapper {
 				img {
-					border: solid 1px #ccc;
+					border: solid 1px #f5f7f8;
+					border-radius: 20px;
 				}
 				a {
 					img {
 						transition-timing-function: ease-in;
 						transition: .25s;
 						&:hover {
-							-webkit-box-shadow: 3px 3px 30px -2px rgba(153,153,153,.5);
-						    -moz-box-shadow: 3px 3px 30px -2px rgba(153,153,153,.5);
-						    box-shadow: 3px 3px 30px -2px rgba(153,153,153,.5);
+							box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 						    -webkit-transform: translateY(-2px);
 						    transform: translateY(-2px);
 						}

@@ -1,6 +1,6 @@
 ---
 layout: full-width
-title: Extraordinary Experiences
+title: Personal Goals
 description: We become the things we do
 og_title: Self-mastery | Taylor McKnight
 og_description: We become the things we do

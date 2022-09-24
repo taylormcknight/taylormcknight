@@ -1,6 +1,9 @@
 <nav class="top-nav-desktop">
-	<a href="{{ site.url }}" class="logo">Taylor McKnight</a>
+	<div class="top-nav-inner-wrapper">
 	<ul class="nav">
+		<li>
+			<a href="{{ site.url }}" {% if page.url == '' %}class="current"{% endif %}>About</a>
+		</li>
 		<li>
 			<a href="{{ site.url }}/highlights" {% if page.url == '/highlights' %}class="current"{% endif %}>Work</a>
 		</li>
@@ -10,20 +13,6 @@
 		<li>
 			<a href="{{ site.url }}/goals" {% if page.url == '/goals' %}class="current"{% endif %}>Goals</a>
 		</li>
-		<li>
-			<a href="{{ site.url }}/about" {% if page.url == '/about' %}class="current"{% endif %}>About</a>
-		</li>
 	</ul>
-<div id="myNav" class="overlay">
-		<!-- Button to close the overlay navigation -->
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<!-- Overlay content -->
-		<div class="overlay-content">
-			<a href="{{ site.url }}/highlights">Work</a>
-			<a href="{{ site.url }}/leadership">Leadership</a>
-			<a href="{{ site.url }}/goals">Goals</a>
-			<a href="{{ site.url }}/about">About</a>
-		</div>
-	</div>
-	<span onclick="openNav()" class="mobile-menu-btn logo">&#9776;</span>
+</div>
 </nav>

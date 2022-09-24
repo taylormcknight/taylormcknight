@@ -10,7 +10,7 @@ og_type: website
 <section class="grid page-header">
 	<div class="full-width">
 		<h1>{{ page.title }}</h1>
-		<p>Leadership and management posts</p>
+		<p>Always open. Always learning.</p>
 	</div>
 </section>
 <section class="stripe-section-2">
@@ -36,6 +36,9 @@ og_type: website
 				<a href="{{ leadership.url }}">
 				{% endif %}
 				Read more
+				{% if leadership.external_url %}
+				<img src="{{ site.url }}/media/img/external-link-icon.png" class="external-link-icon">
+				{% endif %}
 				</a>
 				</p>
 			</figcaption>
