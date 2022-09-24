@@ -47,7 +47,6 @@ og_type: website
 	<li><a href="https://pbs.twimg.com/media/D0os5CVW0AABVFN.jpg:large">Design a life (physically) close to friends and family</a></li>
 	<li><a href="{{ site.url }}/goals">Design a life filled with goals and challenges</a></li>
 	<!--<li>Design a life filled with extraordinary stories</li>-->
-	<li><a href="{{ site.baseurl }}{% link _posts/essays/2020-11-19-wellbeing.md %}">Design a meaningful approach to management</a></li>
 	<li><a href="{{ site.url }}/art">Design a life with art</a></li>
 	<!--<li>Design a life in multiple cities</li>
 	<li>Design a home that increases wellbeing</li>-->
