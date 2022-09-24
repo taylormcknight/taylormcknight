@@ -14,11 +14,9 @@ og_type: website
 	</div>
 </section>
 <section class="inner-section-wrapper">
-
-
 <h2>Bio</h2>
 <img src="{{ site.url }}/media/img/about/headshot-2022.jpg" class="headshot">
-<p>Over the last 10 years, I've led design at Industry Dive, a bootstrapped business media company in Washington, D.C.<p> 
+<p>Over the last 10 years, I've led design at Industry Dive, a bootstrapped business media company in Washington, D.C.</p> 
 
 <p>I helped scale the company from year one through its $500M exit in Sept 2022.</p>
 
@@ -57,72 +55,4 @@ og_type: website
 	<li><a href="https://scottbarrykaufman.com/podcast/maximizing-satisficing-and-the-paradox-of-choice-with-barry-schwartz/">Design a decision-making process built for the attention economy</a></li>
 	<li><a href="{{ site.baseurl }}{% link _posts/startup/2015-06-06-school-vs-on-job.md %}">Design a life that balances formal and real-world education</a></li>
 </ul>
-<!--
-<section class="grid">
-	<div class="full-width">
-	</div>
 </section>
-
-<!--
-<section class="stripe-section-2">
-	<section class="grid sub-section-header">
-		<div class="full-width">
-			<h2>Space</h2>
-		</div>
-	</section>
-	
-</section>
-
-<section class="stripe-section-2">
-	<section class="grid sub-section-header">
-		<div class="full-width">
-			<h2>Journalism</h2>
-		</div>
-	</section>
-	<section class="grid-wrapper tiles">
-		{% assign journalismprojects = site.projects | where: "category", "journalism" | sort:"weight" %}
-		{% for page in journalismprojects %}
-		<article>
-			<figure>
-				{% if page.image %}
-				{% if page.external_url %}
-				<a href="{{ page.external_url }}">
-				{% else %}
-				<a href="{{ page.url }}">
-				{% endif %}
-				<img src="{{ page.image }}" />
-				</a>
-				{% endif %}
-				<figcaption>
-					{% if page.external_url %}
-					<a href="{{ page.external_url }}">
-					{% else %}
-					<a href="{{ page.url }}">
-					{% endif %}
-					{% if page.label %}
-					<p class="label">{{ page.label }}</p>
-					{% endif %}
-					<h3>
-						{{ page.title }}
-					</h3>
-					</a>
-					<p>
-					{{ page.description }}
-					</p>
-					<p>
-					{% if page.external_url %}
-					<a href="{{ page.external_url }}">
-					{% else %}
-					<a href="{{ page.url }}">
-					Read more
-					{% endif %}
-					</a>
-					</p>
-				</figcaption>
-			</figure>
-		</article>
-		{% endfor %}
-	</section>
-
-
-</section>-->
