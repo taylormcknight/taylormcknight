@@ -12,7 +12,7 @@ og_type: website
 
 <h1>{{ page.title }}</h1>
 
-<img src="{{ site.url }}/media/img/about/headshot-2022.jpg" class="headshot">
+<img src="{{ site.url }}/media/img/about/headshot.jpg" class="headshot">
 
 <p>Over the last 10 years, I've led design at Industry Dive, a bootstrapped business media company in Washington, D.C.<p> 
 
