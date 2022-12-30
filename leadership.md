@@ -10,7 +10,7 @@ og_type: website
 <section class="grid page-header">
 	<div class="full-width">
 		<h1>{{ page.title }}</h1>
-		<p>Always open. Always learning.</p>
+		<p>Reflections on management and leadership</p>
 	</div>
 </section>
 <section class="stripe-section-2">
